@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
