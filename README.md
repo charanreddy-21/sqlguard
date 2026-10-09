@@ -206,23 +206,23 @@ The project will follow these principles:
 
 ## 🗺️ Development Roadmap
 
-- [ ] Initialize repository and project structure
-- [ ] Document dataset source and schema
-- [ ] Explore dataset characteristics and label distribution
-- [ ] Implement data validation and preprocessing
-- [ ] Establish a reproducible train/validation/test strategy
-- [ ] Train baseline TF-IDF + Logistic Regression model
-- [ ] Compare character and word n-grams
-- [ ] Evaluate Linear SVM and other suitable baselines
-- [ ] Analyze performance across attack categories
-- [ ] Investigate generalization to unseen query templates
-- [ ] Build FastAPI inference endpoints
-- [ ] Integrate PostgreSQL prediction logging
-- [ ] Build React security dashboard
-- [ ] Add authentication and rate limiting
-- [ ] Containerize and deploy the application
-- [ ] Explore anomaly detection and transformer-based models
-- [ ] Add a RAG-based security intelligence assistant
+- Initialize repository and project structure
+- Document dataset source and schema
+- Explore dataset characteristics and label distribution
+- Implement data validation and preprocessing
+- Establish a reproducible train/validation/test strategy
+- Train baseline TF-IDF + Logistic Regression model
+- Compare character and word n-grams
+- Evaluate Linear SVM and other suitable baselines
+- Analyze performance across attack categories
+- Investigate generalization to unseen query templates
+- Build FastAPI inference endpoints
+- Integrate PostgreSQL prediction logging
+- Build React security dashboard
+- Add authentication and rate limiting
+- Containerize and deploy the application
+- Explore anomaly detection and transformer-based models
+- Add a RAG-based security intelligence assistant
 
 ## 📁 Initial Repository Structure
 
