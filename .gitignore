@@ -19,14 +19,16 @@ venv/
 data/raw/
 data/interim/
 data/processed/
+data/sqlguard.sqlite3*
 
 # Model artifacts
-models/
+/models/*
 *.pkl
 *.joblib
 *.pt
 *.pth
 *.onnx
+!/models/sqli_v3_baseline.joblib
 
 # Jupyter
 .ipynb_checkpoints/
